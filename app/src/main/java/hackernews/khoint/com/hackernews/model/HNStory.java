@@ -11,7 +11,9 @@ package hackernews.khoint.com.hackernews.model;
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
-public class Article {
+
+
+public class HNStory {
 
     @SerializedName("id")
     private int id;
@@ -70,9 +72,6 @@ public class Article {
     public String getDescendants(){
         return descendants;
     }
-
-
-
 
 }
 
